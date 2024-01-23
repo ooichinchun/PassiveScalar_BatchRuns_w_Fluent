@@ -1,7 +1,7 @@
 ## Script to select random release location from a list of box zones in FLUENT ANSYS and create the SCM file to automate the simulation runs and passive scalar concentration extraction
 
 This section contains only 1 file, but assumes the following 2 pre-requisites have been met:
-1) Extracted list of zones in the Fluent Case (valid zones for release have been identified) - This should look similar to the sample 'all-names-transpose.csv' example.
+1) Extracted list of zones in the Fluent Case (valid zones for release have been identified) - This should look similar to the sample [all-names-transpose.csv](https://github.com/ooichinchun/PassiveScalar_BatchRuns_w_Fluent/blob/main/Select_RandLoc_Create_scm_for_Fluent/all-names-transpose.csv) example.
 2) A first working Fluent case and data file has been created with pre-set desired passive scalar settings. The scm file only changes the source and patches the values to enable multiple runs to happen quickly.
 
 ### Duplicate stl with numpy-stl
