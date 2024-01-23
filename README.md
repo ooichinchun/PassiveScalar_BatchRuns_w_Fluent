@@ -1,2 +1,25 @@
-# PassiveScalar_BatchRuns_w_Fluent
+# Workflow and Scripts to Batch Run Passive Scalar Simulation with Ansys Fluent
 Workflow and Accompanying Scripts for Batching Passive Scalar Runs with Ansys Fluent
+
+Ansys Fluent can be used to simulate the release of a passive scalar source (steady-state) over many different possible locations in a particular domain. 
+We frequently need to generate a database of the passive scalar concentration for different release locations, such as in the training of surrogate models for application in other areas.
+This is a repo of scripts that help with the above process.
+
+
+The workflow can be described as follows:
+
+1. Geometry creation in CAD / Rhino with explicit release boxes duplicated across a grid for easy specification as a passive scalar source
+2. Ansys Fluent Meshing and Solution with standard workflows for the steady-state flow velocity
+3. Conversion of case file to handle passive scalar release, with accompanying settings.
+4. Selection of random release locations and solution with Ansys Fluent User-Defined Scalar functionality
+5. Extraction and output of Passive Scalar Concentration throughout domain on pre-defined grid points
+6. Script to extract and compile all the outputs from different Passive Scalar Runs
+
+Scripts and instructions for the various steps (excluding Step 2) are provided in the accompanying subsections.
+
+***
+Note 1: This is not an official IHPC product, but please credit this work if this is helpful to you.
+
+Note 2: The Ansys Fluent schema files were created based on Ansys Fluent 2021 version. They have not been tested on other (both older or newer) versions of Ansys Fluent where additional functionalities/options have been added.
+
+This is the work of [Ooi Chin Chun](mailto:ooicc@cfar.a-star.edu.sg) from the Institute of High Performance Computing, A* Singapore.
