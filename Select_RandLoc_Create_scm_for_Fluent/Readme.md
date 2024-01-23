@@ -14,6 +14,10 @@ num_samples needs to be modified to generate the number of samples required. Not
 This is a two-step process:
 1) Generate list of x,y locations from LHS
 2) Retain only sampled locations that are present in the list of locations specified in 'all-names-transpose.csv' (Note that the check assumes a gridded list of locations currently)
+3) The filename specified in <u>prev_zone = 'small-box-01-05:270313'</u> needs to be changed to some random (but valid) zone name for the very first run. This zone is needed as a filler to set the UDS source to 0 for the first run.
+4) The list of zones in the scm needs to be updated.
+5) The save directories for the Vol-avg Passive Scalar value and the FLUENT case and data file need to be updated as desired. (Search for '.txt' and '.cas.h5')
+
 
 
 ### Using the scm file
@@ -29,6 +33,5 @@ The generated scm file will do the following:
 Note that there are 3 pre-requisites for this script to work:
 1) Extracted list of zones in the Fluent Case
 2) A first working Fluent case and data file has been created with pre-set desired passive scalar settings. The scm file only changes the source and patches the values to enable multiple runs to happen quickly.
-3) The filename specified in <u>prev_zone = 'small-box-01-05:270313'</u> needs to be changed to some random (but valid) zone name for the very first run. This zone is needed as a filler to set the UDS source to 0 for the first run.
 
 
