@@ -8,10 +8,10 @@ ____
 
 The workflow can be described as follows:
 
-1) [Geometry creation with explicit release boxes duplicated across a grid for easy specification as a passive scalar source](https://github.com/ooichinchun/PassiveScalar_BatchRuns_w_Fluent/DuplicateReleaseBoxes/Readme.md) 
+1) [Geometry creation with explicit release boxes duplicated across a grid for easy specification as a passive scalar source](./DuplicateReleaseBoxes/Readme.md) 
 2) Ansys Fluent Meshing and Solution with standard workflows for the steady-state flow velocity
 3) Conversion of case file to handle passive scalar release, with accompanying settings.
-4) [Selection of random release locations and solution with Ansys Fluent User-Defined Scalar functionality](https://github.com/ooichinchun/PassiveScalar_BatchRuns_w_Fluent/Select_RandLoc_Create_scm_for_Fluent/Readme.md) 
+4) [Selection of random release locations and solution with Ansys Fluent User-Defined Scalar functionality](./Select_RandLoc_Create_scm_for_Fluent/Readme.md) 
 5) Extraction and output of Passive Scalar Concentration throughout domain on pre-defined grid points
 6) Script to extract and compile all the outputs from different Passive Scalar Runs
 
