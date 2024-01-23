@@ -3,7 +3,7 @@
 This section is comprised of 2 files.
 
 ### Duplicate stl with numpy-stl
-[translate_stl.py](https://github.com/ooichinchun/PassiveScalar_BatchRuns_w_Fluent/blob/master/DuplicateReleaseBoxes/translate_stl.py) contains a function to translate and save the release box in a specified stl file (.stl) with a pre-determined grid spacing and initial location.
+[translate_stl.py](https://github.com/ooichinchun/PassiveScalar_BatchRuns_w_Fluent/blob/main/DuplicateReleaseBoxes/translate_stl.py) contains a function to translate and save the release box in a specified stl file (.stl) with a pre-determined grid spacing and initial location.
 
 It should be noted that this function assumes that numpy-stl and shutil packages have been installed.
 
@@ -20,6 +20,6 @@ This is a two-step process:
 Upon generation of the duplicate boxes, numpy-stl package scrambles the stl name. 
 We currently utilize Rhino to re-save the generated stl with filenames that are parseable by Fluent Meshing as-is.
 
-[re-save-numpy-stl.py](https://github.com/ooichinchun/PassiveScalar_BatchRuns_w_Fluent/blob/master/DuplicateReleaseBoxes/re-save-numpy-stl.py) utilizes Rhino to resave the stl files in the original folder (location in the script; currently specified as 'output_folder' on Windows Desktop).
+[re-save-numpy-stl.py](https://github.com/ooichinchun/PassiveScalar_BatchRuns_w_Fluent/blob/main/DuplicateReleaseBoxes/re-save-numpy-stl.py) utilizes Rhino to resave the stl files in the original folder (location in the script; currently specified as 'output_folder' on Windows Desktop).
 
 
