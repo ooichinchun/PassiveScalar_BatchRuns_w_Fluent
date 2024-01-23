@@ -1,3 +1,7 @@
+# Script written by Ooi Chin Chun
+# Institute of High Performance Computing, Singapore
+# Copyright (c) 2023. 
+
 # !pip install numpy-stl
 
 import numpy as np
