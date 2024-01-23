@@ -8,12 +8,12 @@ ____
 
 The workflow can be described as follows:
 
-1. Geometry creation in CAD / Rhino with explicit release boxes duplicated across a grid for easy specification as a passive scalar source
-2. Ansys Fluent Meshing and Solution with standard workflows for the steady-state flow velocity
-3. Conversion of case file to handle passive scalar release, with accompanying settings.
-4. Selection of random release locations and solution with Ansys Fluent User-Defined Scalar functionality
-5. Extraction and output of Passive Scalar Concentration throughout domain on pre-defined grid points
-6. Script to extract and compile all the outputs from different Passive Scalar Runs
+1) Geometry creation in CAD / Rhino with explicit release boxes duplicated across a grid for easy specification as a passive scalar source
+2) Ansys Fluent Meshing and Solution with standard workflows for the steady-state flow velocity
+3) Conversion of case file to handle passive scalar release, with accompanying settings.
+4) Selection of random release locations and solution with Ansys Fluent User-Defined Scalar functionality
+5) Extraction and output of Passive Scalar Concentration throughout domain on pre-defined grid points
+6) Script to extract and compile all the outputs from different Passive Scalar Runs
 
 Scripts and instructions for the various steps (excluding Step 2) are provided in the accompanying subsections.
 
