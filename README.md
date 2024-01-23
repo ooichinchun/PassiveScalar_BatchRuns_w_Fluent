@@ -1,10 +1,10 @@
-# Workflow and Scripts to Batch Run Passive Scalar Simulation with Ansys Fluent
-Workflow and Accompanying Scripts for Batching Passive Scalar Runs with Ansys Fluent
+## Workflow and Scripts to Batch Run Passive Scalar Simulation with Ansys Fluent
 
 Ansys Fluent can be used to simulate the release of a passive scalar source (steady-state) over many different possible locations in a particular domain. 
 We frequently need to generate a database of the passive scalar concentration for different release locations, such as in the training of surrogate models for application in other areas.
 This is a repo of scripts that help with the above process.
 
+____
 
 The workflow can be described as follows:
 
