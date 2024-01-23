@@ -3,7 +3,7 @@
 This section contains only 1 file, but assumes that an extracted list of zones already exist. This should look similar to the sample 'all-names-transpose.csv' example.
 
 ### Duplicate stl with numpy-stl
-[sample_values.py](https://github.com/ooichinchun/PassiveScalar_BatchRuns_w_Fluent/blob/master/Select_RandLoc_Create_scm_for_Fluent/sample_values.py) samples from the possible list of locations with the Latin Hypercube Sampling algorithm and creates a Fluent SCM file to cycle through the simulations and extract the passive scalar concentrations.
+[sample_values.py](https://github.com/ooichinchun/PassiveScalar_BatchRuns_w_Fluent/blob/main/Select_RandLoc_Create_scm_for_Fluent/sample_values.py) samples from the possible list of locations with the Latin Hypercube Sampling algorithm and creates a Fluent SCM file to cycle through the simulations and extract the passive scalar concentrations.
 
 It should be noted that this function assumes that the pyDOE package has been installed and a list of all zones in FLUENT are provided.
 
