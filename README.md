@@ -24,4 +24,6 @@ Note 1: This is not an official IHPC product, but please credit this work if thi
 
 Note 2: The Ansys Fluent schema files were created based on Ansys Fluent 2021 version. They have not been tested on other (both older or newer) versions of Ansys Fluent where additional functionalities/options have been added.
 
+Note 3: Python scripts are written for Python version 3.8
+
 This is the work of [Ooi Chin Chun](mailto:ooicc@cfar.a-star.edu.sg) and [Ge Zhengwei](mailto:gezw@ihpc.a-star.edu.sg)from the Institute of High Performance Computing, A*STAR, Singapore.
