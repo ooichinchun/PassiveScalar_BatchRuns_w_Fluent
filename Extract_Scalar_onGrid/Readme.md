@@ -13,6 +13,8 @@ gap can be determined based on the desired gridded spacing, while this scm only 
 
 [generate-scm.py](https://github.com/ooichinchun/PassiveScalar_BatchRuns_w_Fluent/blob/main/Extract_Scalar_onGrid/generate-scm.py) creates a SCM with a repeated set of the following function calls in FLUENT.
 
+Manually extract list of surfaces from the Fluent Case - This needs to be inserted into the script
+
 We have to do the following:
 1) Run an extra scm file which will load the ANSYS FLUENT case file
 2) The scm file then loads the scm file into FLUENT and runs the (extract-ps)
