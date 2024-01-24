@@ -15,7 +15,7 @@ The workflow can be described as follows:
 5) [Extraction and output of Passive Scalar concentration throughout domain on pre-defined grid points](./Extract_Scalar_onGrid/Readme.md)
 6) Script to extract and compile all the outputs from different Passive Scalar Runs
 
-Scripts and instructions for the various steps (excluding Step 2) are provided in the accompanying subsections.
+Scripts and instructions for the various steps are provided in the accompanying subsections.
 
 ***
 Note 1: This is not an official IHPC product, but please credit this work if this is helpful to you.
