@@ -26,4 +26,4 @@ Note 2: The Ansys Fluent schema files were created based on Ansys Fluent 2021 ve
 
 Note 3: Python scripts are written for Python version 3.8
 
-This is the work of [Ooi Chin Chun](mailto:ooicc@cfar.a-star.edu.sg) and [Ge Zhengwei](mailto:gezw@ihpc.a-star.edu.sg)from the Institute of High Performance Computing, A*STAR, Singapore.
+This is the work of [Ooi Chin Chun](mailto:ooicc@cfar.a-star.edu.sg) and [Ge Zhengwei](mailto:gezw@ihpc.a-star.edu.sg) from the Institute of High Performance Computing, A*STAR, Singapore.
