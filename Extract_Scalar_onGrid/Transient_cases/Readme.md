@@ -2,6 +2,17 @@
 ## This is a modified version for extracting the slices for transient FLUENT simulations
 
 
+
+### Step 1: Create scm with known x- and y- extents for the domain (same as for steady-state case)
+[generate-scm.py](https://github.com/ooichinchun/PassiveScalar_BatchRuns_w_Fluent/blob/main/Extract_Scalar_onGrid/generate-scm.py) creates a gridded set of surfaces from a specified cut-plane which can then be used to extract the passive scalar concentrations.
+
+x_min, x_max, y_min and y_max are determined by the spatial extents of the geometrical domain.
+
+gap can be determined based on the desired gridded spacing.
+
+The current scm template only works for a cut-plane at a single height but this can be easily adjusted.
+
+
 ### Step 2: Create scm with a python script to batch the use of first scm file for passive scalar concentration from multiple data files in single transient simulation
 
 ##########################
