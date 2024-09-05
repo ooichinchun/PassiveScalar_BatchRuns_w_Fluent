@@ -19,13 +19,12 @@ The current scm template only works for a cut-plane at a single height but this 
 #START PARAMETERS TO EDIT#
 ##########################
 
-## Slice height can be modified from here
-## This can be created by the .py file in Step 1
+### Slice height can be modified here. This can be created by the .py file in Step 1
 
 height_idx = '150'
 input_ps_scm_file_path = '/data/ooicc/pcf-fengshan/completed-Table/scripts-ps-values-zw/export-ps-' + height_idx + 'cm.scm'
 
-## Transient case simulation data are specified here
+### Transient case simulation data are specified here
 file_index = '08-16'
 
 folder_path = '/data/ooicc/pcf-fengshan/completed-Grid/transient-case-files/transient-case-runs-' + file_index
@@ -33,7 +32,7 @@ overall_case_file = 'model-3-Scenario-Grid-base-' + file_index + '_ff_ps.cas.h5'
 
 case_filename_prefix = 'model-3-Scenario-Grid-base-' + file_index + '-'
 
-## Output scm file is created in directory where .py file is located.
+### Output scm file is created in directory where .py file is located.
 output_scm_file_path = 'loop_data-' + file_index + '.scm'
 
 
